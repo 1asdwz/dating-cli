@@ -1,0 +1,26 @@
+﻿{
+  "name": "dating-cli",
+  "version": "0.2.2",
+  "description": "CLI wrapper for dating APIs used by AI agents",
+  "bin": {
+    "dating-cli": "bin/dating-cli.js"
+  },
+  "type": "commonjs",
+  "scripts": {
+    "start": "node bin/dating-cli.js",
+    "lint": "node -e \"console.log('No linter configured')\""
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "dating",
+    "api",
+    "cli",
+    "agent"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^12.1.0"
+  }
+}
